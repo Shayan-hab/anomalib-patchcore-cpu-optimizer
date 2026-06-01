@@ -48,7 +48,7 @@ Distributed under the MIT License. See LICENSE for more information.
 ## 📬 Contact
 Shayan Rasool — shayandevcv@gmail.com
 
-Project Link: https://github.com/YOUR_USERNAME/anomalib-patchcore-cpu-optimizer
+Project Link: [ https://github.com/YOUR_USERNAME/anomalib-patchcore-cpu-optimizer](https://github.com/Shayan-hab/anomalib-patchcore-cpu-optimizer)
 ---
 
 
