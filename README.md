@@ -19,19 +19,3 @@ Industrial visual inspection systems face a critical deployment gap:
 **Objective:** Bridge the gap between research accuracy and production deployment by optimizing PatchCore for low-latency, memory-efficient CPU inference.
 
 ---
-
-## 🏗️ Architecture
-
-```mermaid
-flowchart LR
-    A[Video Stream<br/>256×256 Frames] --> B[WideResNet50<br/>Feature Extractor]
-    B --> C[Patchify<br/>Layer2 + Layer3]
-    C --> D{Compression<br/>Strategy}
-    D -->|PCA / Random Projection| E[Reduced Embeddings<br/>128-dim]
-    E --> F[Memory Bank<br/>k-NN Search]
-    F --> G[Anomaly Score<br/>& Heatmap]
-    G --> H[OpenVINO INT8<br/>Inference Engine]
-    H --> I[Real-Time Dashboard<br/>FPS | Memory | Alert]
-    
-    style D fill:#e1f5fe
-    style H fill:#fff3e0
