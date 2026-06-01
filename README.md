@@ -32,7 +32,15 @@ This project demonstrates production-grade MLOps competencies critical for indus
 - **Scalability:** Config-driven architecture allows rapid adaptation to new product lines (bottle → cable → transistor) via YAML changes.
 - **Reliability:** Unsupervised learning removes the need for labeled defect datasets, reducing time-to-deployment from months to days.
 
+---
 
+## 📚 References
+- Roth, K., et al. Towards Total Recall in Industrial Anomaly Detection. CVPR 2022. (PatchCore Paper)
+- Anomalib — Open Edge Platform
+- Intel OpenVINO Toolkit
+- NNCF Neural Network Compression Framework
+
+---
 
 
 
