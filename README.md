@@ -19,4 +19,6 @@ Industrial visual inspection systems face a critical deployment gap:
 **Objective:** Bridge the gap between research accuracy and production deployment by optimizing PatchCore for low-latency, memory-efficient CPU inference.
 
 ---
+## 📊 Key Results
+
 **Acceptance Criteria Met:** ✅ ≥25 FPS on CPU | ✅ ≤35% memory footprint | ✅ <1.2% recall drop
